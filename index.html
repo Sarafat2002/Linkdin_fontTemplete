@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainmenu">
+<div class="childmenu">
+    <i class="fa-brands fa-linkedin"></i>
+    <from class="mini">
+    <input type="text" name="Search"placeholder="Search" >
+    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+</from>
+</div>
+<div>
+<fontbar class="fontbar">
+    <i class="fa-solid fa-house"></i>
+    <i class="fa-solid fa-user-group"></i>
+    <i class="fa-solid fa-briefcase"></i>
+    <i class="fa-solid fa-comment-dots"></i>
+    <i class="fa-solid fa-bell"></i>
+    <i class="fa-solid fa-user"></i>
+</fontbar>
+<nav class="navbar">
+    <ul>
+        <li class="li1">home</li>
+        <li class="li2">my network</li>
+        <li class="li3">jobs</li>
+        <li class="li4">messaging</li>
+        <li class="li5">notifications</li>
+        <li class="li6">me</li>
+        
+    </ul>
+</nav>
+</div>
+<div class="menulast">
+    <div class="menulast1">
+    <i class="fa-solid fa-grip-vertical"></i>
+    <p>work</p>
+</div>
+<div class="ankormini">
+    <a href="#">try premium for<br> free</a>
+</div>
+</div>
+</div>
+
+<div class="maindiv1">
+<div class="childdiv1">
+<img src="./main.jpg" alt="" class="coverimg">
+<img src="./sarafat.png" alt="" class="posiimg">
+<have>
+<h3>Sarafat Hossen</h3>
+<p class="para1c">Photoshop</p><hr>
+<p class="para1">who view your profile</p>
+<p class="para1a">impresions your post</p><hr>
+<p class="para1b">access exclusive tools and insights</p>
+<span class="linner"></span>
+<a href="#" class="ankor1"> try to premium for free</a><hr>
+<i class="fa-solid fa-bookmark"></i><a href="#" class="ankor1a">my item</a>
+</div>
+
+<div class="childdiv2">
+<h2>prepare for your job saerch</h2>
+<div class="ranger">
+    <div class="sub">
+
+    </div>
+
+</div>
+<div class="slide1">
+<img name="slide"   src="./img1.png" alt="">
+<img name="slide"   src="./img2.png" alt="">
+<img name="slide"     src="./img3.png" alt="">
+<p>Get notified when new jobs match your preferred title and <br>location.</p>
+<button>get job alert</button>
+</div>
+
+
+<div class="childdiv3">
+<div class="imglast">
+<h3>Add to your feed</h3> 
+<img  src="./img4.jpg" alt="" class="imglast1" >
+<img src="./sarafat.png" alt="" class="imglast2">
+<img src="./img4.jpg" alt="" class="imglast3">
+</div>
+<div class="textlast">
+<div class="textlast1">
+    <h4>carrer bangladesh</h4>
+    <p>company.human resources</p>
+    <button><i class="fa-solid fa-plus"></i>follow</button>
+</div>
+<div class="textlast2">
+    <h4>sarafat hossen</h4>
+    <p>managing directors of <br>ultra grroup  of company <br>and sarafat group...</p>
+    <button><i class="fa-solid fa-plus"></i>follow</button>
+</div>
+<div class="textlast3">
+    <h4>carrer bangladesh</h4>
+    <p>company.human resources</p>
+    <button><i class="fa-solid fa-plus"></i>follow</button>
+</div>
+</div>
+</div>
+
+
+<script>
+
+var i =0;
+var images = [];
+var time = 3000;
+
+
+images[0]='img1.png';
+images[1]='img2.png';
+images[2]='img3.png';
+
+
+function changeImg(){
+    document.slide.src= images[i];
+
+    if(i < images.length -1){
+        i++;
+    }
+
+    else{
+        i=0;
+    }
+
+    setTimeout( 'changeImg()',time );
+}
+
+window.onload=(changeImg);
+
+
+
+
+
+</script>
+</body>
+</html>

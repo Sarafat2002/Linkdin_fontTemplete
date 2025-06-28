@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 223, 223);
+}
+.mainmenu{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    width: 1300px;
+    margin-top: 10px;
+}
+.mainmenu>*{
+    flex: 1;
+}
+.fa-linkedin{
+    font-size: 50px;
+    color: rgb(56, 56, 255);
+}
+.childmenu{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+.mini input{
+    padding: 10px 40px;
+    margin-top: 7px;
+    background-color: rgb(213, 255, 241);
+    border: none;
+    text-align: left;
+}
+.mini button{
+    float: left;
+    margin-top: 7px;
+    border: none;
+    margin-left: 10px;
+    background: rgb(213, 255, 241);
+    padding: 10px;
+}
+
+.fontbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.fontbar i{
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+}
+.fontbar i:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.navbar ul li{
+    list-style: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.li4{
+    padding-left: 10px;
+}
+.fa-comment-dots{
+    padding-right: 13px;
+}
+.li3{
+    padding-left: 10px;
+}
+.fa-house{
+    padding-left: 5px;
+}
+
+.menulast{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+}
+.menulast1 p{
+    padding-top: 10px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.menulast1 i{
+    font-size: 30px;
+    color: rgb(77, 77, 77);
+}
+.menulast1 i :hover{
+    color: black;
+    cursor: pointer;
+}
+
+.ankormini {
+    margin-left: 50px;
+    text-transform: capitalize;
+}
+
+
+.maindiv1{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    position: relative;
+}
+.childdiv1{
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+.coverimg{
+width: 250px;
+height: 80px;
+border-radius: 10px 10px 0px 0px;
+}
+.posiimg{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    left: 135px;
+    top: 20px;
+}
+.childdiv1 h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.para1c{
+    text-align: center;
+    padding-top: 10px;
+}
+.para1{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.para1a{
+    padding-left: 20px;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.para1b{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.linner{
+    margin-left: 20px;
+    width: 13px;
+    height: 13px;
+    background-image: linear-gradient(rgb(255, 55, 71), rgb(121, 121, 0));
+    display: inline-block;
+    margin-top: 10px;
+}
+.ankor1{
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.fa-bookmark{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+.ankor1a{
+    margin-left: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.childdiv2{
+    background-color: white;
+    width: 500px;
+    height: 480px;
+    border-radius: 10px;
+}
+.childdiv2 h2{
+    padding-top: 20px;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+.slide1{
+    width: 440px;
+    height: 320px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 10px;
+    position: relative;
+    
+}
+.slide1 img{
+    width: 440px;
+    height: 160px;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    
+}
+.ranger{
+    width: 80%;
+    height: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 10px;
+    background: rgb(0,100,0);
+    background: linear-gradient(90deg, rgba(0,100,0,1) 30%, rgba(208,208,208,1) 30%);
+}
+
+.slide1 p{
+    padding-top: 20px;
+    font-size: 17px;
+}
+.slide1 button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(91, 91, 255);
+    color: white;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+
+.childdiv3{
+    display: flex;
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.imglast1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.imglast2{
+    width: 50px;
+    height: 67px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.imglast3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 10px;
+    margin-top: 90px;
+}
+.imglast h3{
+    position: absolute;
+    top: 20px;
+    right: 220px;
+}
+.textlast{
+margin-top: 60px;
+margin-right: 45px;
+}
+.textlast1 h4{
+    text-transform: capitalize;
+}
+.textlast1 p{
+    text-transform: capitalize;
+    padding-top: 7px;
+}
+.textlast1 button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.textlast2 h4{
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.textlast2 p{
+    text-transform: capitalize;
+    padding-top: 7px;
+}
+.textlast2 button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.textlast3 h4{
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.textlast3 p{
+    text-transform: 7px;
+    padding-top: 7px;
+}
+.textlast3 button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+
+
+
+
